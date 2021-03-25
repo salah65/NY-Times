@@ -1,11 +1,12 @@
 ## Table of contents
+* [Demo](#demo)
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Third Party libraries](#Third-Party-libraries)
 * [Setup](#setup)
 ## Demo
-<p align="center"><img align="center" src="https://github.com/salah65/NY-Times/blob/main/media/ezgif.com-gif-maker.gif?raw=true" width="240" height="480" />
-</p>
+<p align="center"><img align="center" src="https://github.com/salah65/NY-Times/blob/main/media/ezgif.com-gif-maker.gif?raw=true" width="240" height="480" /></p>
+
 ## General info
 This project is simple news app getting data from NY Times Most Popular Articles
 	

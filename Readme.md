@@ -3,6 +3,8 @@
 * [Technologies](#technologies)
 * [Third Party libraries](#Third-Party-libraries)
 * [Setup](#setup)
+## Demo
+<img src="https://github.com/salah65/NY-Times/blob/main/media/ezgif.com-gif-maker.gif?raw=true" width="40" height="80" />
 
 ## General info
 This project is simple news app getting data from NY Times Most Popular Articles

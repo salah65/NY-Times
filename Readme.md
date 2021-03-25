@@ -19,8 +19,7 @@ Project is created with:
 * circle image view 
 	link -> https://github.com/hdodenhof/CircleImageView
 * sdp&ssp
-	link -> https://github.com/intuit/ssp<br/>
-		https://github.com/intuit/sdp
+	link -> https://github.com/intuit/ssp<br/>&nbsp;&nbsp;https://github.com/intuit/sdp
 * shimmer layout 
 	link -> https://facebook.github.io/shimmer-android/
 * Glide

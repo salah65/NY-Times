@@ -1,22 +1,37 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
+* [Third Party libraries](#Third-Party-libraries)
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This project is simple news app getting data from NY Times Most Popular Articles
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* kotlin
+* Mvvm Architcture pattern
+* kotlin coroutines
+* retrofit for networking
+* Dataibnding
+
+##Third Party libraries
+* circle image view 
+	link -> https://github.com/hdodenhof/CircleImageView
+* sdp&ssp
+	link -> https://github.com/intuit/ssp
+		https://github.com/intuit/sdp
+* shimmer layout 
+	link -> https://facebook.github.io/shimmer-android/
+* Glide
+	link -> https://github.com/bumptech/glide
+
 	
 ## Setup
-To run this project, install it locally using npm:
+
+To run this project, just clone the repository and run the project on emulator or physical device
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+git clone https://github.com/salah65/NY-Times.git
+
 ```

@@ -43,11 +43,6 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.articleRv.adapter = adapter
         binding.articleRv.startLayoutAnimation()
-        val dividerItemDecoration = DividerItemDecoration(
-            binding.articleRv.context,
-            OrientationHelper.VERTICAL
-        )
-        binding.articleRv.addItemDecoration(dividerItemDecoration)
         binding.swipeTorefresh.setOnRefreshListener {
             viewModel.getArticles()
             binding.swipeTorefresh.isRefreshing = false

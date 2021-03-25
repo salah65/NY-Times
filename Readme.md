@@ -15,11 +15,11 @@ Project is created with:
 * retrofit for networking
 * Dataibnding
 
-##Third Party libraries
+## Third Party libraries
 * circle image view 
 	link -> https://github.com/hdodenhof/CircleImageView
 * sdp&ssp
-	link -> https://github.com/intuit/ssp
+	link -> https://github.com/intuit/ssp\n
 		https://github.com/intuit/sdp
 * shimmer layout 
 	link -> https://facebook.github.io/shimmer-android/

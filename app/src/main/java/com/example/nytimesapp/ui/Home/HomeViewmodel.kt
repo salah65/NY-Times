@@ -14,7 +14,9 @@ import kotlinx.coroutines.withContext
 
 class HomeViewModel : ViewModel() {
     val articlesLiveData by lazy { MutableLiveData<Resource<List<Article>>>() }
+
     init {
+        articlesLiveData.value = Resource.loading()
         getArticles()
     }
 
@@ -22,7 +24,7 @@ class HomeViewModel : ViewModel() {
     fun getArticles() {
         viewModelScope.launch(handleError(articlesLiveData)) {
             withContext(IO) {
-                val response = RetrofitInstance.getService().getMostPopularArticles(1)
+                val response = RetrofitInstance.getService().getMostPopularArticles(7)
                 if (response.isSuccessful)
                     articlesLiveData.postValue(Resource.success(response.body()?.results?.toDomainModel()))
 

@@ -16,7 +16,7 @@ Project is created with:
 * Mvvm Architcture pattern
 * kotlin coroutines
 * retrofit for networking
-* Dataibnding
+* Databinding
 
 ## Third Party libraries
 * circle image view 

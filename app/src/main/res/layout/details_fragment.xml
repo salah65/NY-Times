@@ -61,13 +61,14 @@
 
         <TextView
             android:id="@+id/writerName"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/_8sdp"
             android:text="@{article.byline}"
             android:textColor="@color/white"
             android:textSize="@dimen/_15ssp"
             app:layout_constraintBottom_toBottomOf="@+id/writerImg"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
             app:layout_constraintStart_toEndOf="@+id/writerImg"
             app:layout_constraintTop_toTopOf="@+id/writerImg"
             tools:text="by salah s.mahmoud" />

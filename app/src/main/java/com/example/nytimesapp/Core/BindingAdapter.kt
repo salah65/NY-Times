@@ -10,8 +10,9 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 @BindingAdapter("android:src_Url")
-fun loadUrl(view: ImageView, url: String) {
-    Glide.with(view.context).load(url).into(view)
+fun loadUrl(view: ImageView, url: String?) {
+    if (!url.isNullOrEmpty())
+        Glide.with(view.context).load(url).into(view)
 
 }
 
